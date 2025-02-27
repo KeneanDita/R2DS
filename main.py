@@ -1,11 +1,6 @@
-def emojiCon(message):
-    words = message.split(" ")
-    emojis = {":)":"😁",
-              ":(":"🙁"}
+numbers = [2, 2, 2, 2, 6]
+for xCount in numbers:
     output = ""
-    for word in words:
-        output += emojis.get(word, word) + " "
-    return output
-
-message = input(">")
-print(emojiCon(message))
+    for count in range(xCount):
+        output += "x"
+    print(output)

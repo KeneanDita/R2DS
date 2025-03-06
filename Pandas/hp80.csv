@@ -1,0 +1,14 @@
+,Unnamed: 0,#,Name,Type 1,Type 2,Total,HP,Attack,Defense,Sp. Atk,Sp. Def,Speed,Generation,Legendary
+20,20,16,Pidgey,Normal,Flying,251,40,45,40,35,35,56,1,False
+21,21,17,Pidgeotto,Normal,Flying,349,63,60,55,50,50,71,1,False
+22,22,18,Pidgeot,Normal,Flying,479,83,80,75,70,70,101,1,False
+23,23,18,PidgeotMega Pidgeot,Normal,Flying,579,83,80,80,135,80,121,1,False
+30,30,25,Pikachu,Electric,,320,35,55,40,50,50,90,1,False
+136,136,127,Pinsir,Bug,,500,65,125,100,55,70,85,1,False
+137,137,127,PinsirMega Pinsir,Bug,Flying,600,65,155,120,65,90,105,1,False
+186,186,172,Pichu,Electric,,205,20,40,15,35,35,60,2,False
+219,219,204,Pineco,Bug,,290,50,65,90,35,35,15,2,False
+239,239,221,Piloswine,Ice,Ground,450,100,100,80,60,60,50,2,False
+438,438,393,Piplup,Water,,314,53,51,53,61,56,40,4,False
+558,558,499,Pignite,Fire,Fighting,418,90,93,55,70,55,55,5,False
+578,578,519,Pidove,Normal,Flying,264,50,55,50,36,30,43,5,False

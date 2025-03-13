@@ -1,41 +1,55 @@
+import random
+from termcolor import cprint
 
-def run_quiz(questions):
-    score = 0
-    for question in questions:
-        print(question["prompt"])
-        for option in question["options"]:
-            print(option)
-        answer = input("Enter your answer (A, B, C, or D): ").upper()
-        if answer == question["answer"]:
-            print("Correct!\n")
-            score += 1
-        else:
-            print("Wrong! The correct answer was", question["answer"], "\n")
-    print(f"You got {score} out of {len(questions)} questions correct.")
+QUESTION = 'question'
+OPTIONS = 'options'
+ANSWER = 'answer'
 
-# List of quiz questions. Each question is a dictionary.
-questions = [
+def ask_question(index, question, options):
+  print(f'Question {index}: {question}')
+  for option in options:
+    print(option)
+
+  return input('Your answer: ').upper().strip()  
+
+def run_quiz(quiz):
+  random.shuffle(quiz)
+
+  score = 0
+
+  for index, item in enumerate(quiz, 1):
+    answer = ask_question(index, item[QUESTION], item[OPTIONS])
+
+    if answer == item[ANSWER]:
+      cprint('Correct!', 'green')
+      score += 1
+    else:
+      cprint(f'Wrong! The correct answer is {item[ANSWER]}', 'red')
+    
+    print()
+
+  print(f'Quiz over! Your final score is {score} out of {len(quiz)}')
+
+
+def main():  
+  quiz = [
     {
-        "prompt": "What is the capital of France?",
-        "options": ["A. Paris", "B. London", "C. Berlin", "D. Madrid"],
-        "answer": "A"
+      QUESTION: 'What is the capital of France?',
+      OPTIONS: ['A. Berlin', 'B. Madrid', 'C. Paris', 'D. Rome'],
+      ANSWER: 'C'
     },
     {
-        "prompt": "Which language is primarily spoken in Brazil?",
-        "options": ["A. Spanish", "B. Portuguese", "C. English", "D. French"],
-        "answer": "B"
+      QUESTION: 'Which planet is known as the red planet?',
+      OPTIONS: ['A. Earth', 'B. Mars', 'C. Jupiter', 'D. Saturn'],
+      ANSWER: 'B'
     },
     {
-        "prompt": "What is the smallest prime number?",
-        "options": ["A. 1", "B. 2", "C. 3", "D. 5"],
-        "answer": "B"
-    },
-    {
-        "prompt": "Who wrote 'To Kill a Mockingbird'?",
-        "options": ["A. Harper Lee", "B. Mark Twain", "C. J.K. Rowling", "D. Ernest Hemingway"],
-        "answer": "A"
+      QUESTION: 'What is the largest ocean on Earth?',
+      OPTIONS: ['A. Atlantic', 'B. Indian', 'C. Arctic', 'D. Pacific'],
+      ANSWER: 'D'
     }
-]
+  ]  
+  run_quiz(quiz)
 
-# Run the quiz
-run_quiz(questions)
+if __name__ == '__main__':
+  main()

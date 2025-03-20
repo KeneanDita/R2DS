@@ -12,5 +12,7 @@ def fetch_data(url):
 if __name__ == "__main__":
     url = "https://jsonplaceholder.typicode.com/todos/1"  # Sample API
     data = fetch_data(url)
-    if data:
+    if data: 
         print("Fetched Data:", data)
+
+  #final checkpoint

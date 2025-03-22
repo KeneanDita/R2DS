@@ -13,3 +13,9 @@ print(dict['per'])
 
 x = 23
 print(x)
+
+tupr = (1, 4, 56)
+sum_tupe = tupe + tupr
+print(sum_tupe)
+
+#same works for string and lists (I'mean Concatenation)

@@ -1,0 +1,10 @@
+st = list()
+st.append(4)
+st.append(45)
+st.append(3)
+st.append('list')
+print(st)
+
+print('after pop')
+print(st.pop())
+print(st)

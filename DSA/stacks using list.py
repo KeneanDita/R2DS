@@ -1,4 +1,4 @@
-class st():
+class Stack():
     def __init__(self):
         self.sta = list()
     def push(self, item):
@@ -17,7 +17,7 @@ class st():
         return str(self.sta)
 
 
-stu = st()
+stu = Stack()
 stu.push(2)
 stu.push("ken")
 print(stu)

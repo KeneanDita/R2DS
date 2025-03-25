@@ -6,6 +6,7 @@
 # I recommend "pacman" for managing add-on packages. It will
 # install packages, if needed, and then load the packages.
 install.packages("pacman")
+install.packages("rmarkdown")
 
 # Then load the package by using either of the following:
 require(pacman)  # Gives a confirmation message.

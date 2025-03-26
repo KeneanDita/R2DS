@@ -17,6 +17,9 @@ plot(iris$Petal.Length, iris$Petal.Width,
   xlab = "Petal Length",
   ylab = "Petal Width")
 
+#some additional features
+
+
 # PLOT FORMULAS WITH PLOT() ################################
 
 plot(cos, 0, 2*pi)

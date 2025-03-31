@@ -9,6 +9,7 @@ from sklearn.svm import LinearSVC
 from sklearn.model_selection import train_test_split
 from sklearn.datasets import make_classification
 
+
 # Generate some synthetic data for the example
 X, y = make_classification(n_samples=1000, n_features=20, n_classes=2, random_state=42)
 X_train, X_test, y_train, y_test = train_test_split(X, y, test_size=0.2, random_state=42)
@@ -39,6 +40,8 @@ clf_list = [
     (svc, "SVC"),
     (rfc, "Random forest"),
 ]
+
+
 
 fig = plt.figure(figsize=(10, 10))
 gs = GridSpec(4, 2)

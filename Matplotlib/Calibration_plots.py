@@ -41,8 +41,6 @@ clf_list = [
     (rfc, "Random forest"),
 ]
 
-
-
 fig = plt.figure(figsize=(10, 10))
 gs = GridSpec(4, 2)
 colors = plt.get_cmap("Dark2")
@@ -69,13 +67,10 @@ for i, (clf, name) in enumerate(clf_list):
 ax_calibration_curve.grid()
 ax_calibration_curve.set_title("Calibration plots")
 
-# Add histogram
 grid_positions = [(2, 0), (2, 1), (3, 0), (3, 1)]
 for i, (_, name) in enumerate(clf_list):
     row, col = grid_positions[i]
     ax = fig.add_subplot(gs[row, col])
-
-    # Extract probabilities for histogram plotting
     y_prob = calibration_displays[name].y_prob
     ax.hist(y_prob, range=(0, 1), bins=10, label=name, color=colors(i))
     ax.set(title=name, xlabel="Mean predicted probability", ylabel="Count")

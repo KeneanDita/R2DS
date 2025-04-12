@@ -7,19 +7,20 @@ app = Flask(__name__)
 # Load the trained model
 model = joblib.load("store_size_model.joblib")
 
-@app.route('/predict', methods=['POST'])
+@app.route('/predict', methods=['GET', 'POST'])
 def predict():
-    try:
+    if request.method == 'POST':
         data = request.get_json()
+        features = data['features']
+        prediction = model.predict([features])
+        return jsonify({'prediction': prediction.tolist()})
+    else:
+        return "Send a POST request with JSON input."
 
-        # Extract and reshape the features
-        features = data['features']  # Should be a list of 8 values
-        prediction = model.predict([features])[0]
+@app.route('/')
+def home():
+    return "Welcome to the ML model API! Use /predict with POST method."
 
-        return jsonify({'predicted_size': prediction})
-    
-    except Exception as e:
-        return jsonify({'error': str(e)})
 
 if __name__ == '__main__':
     app.run(debug=True)

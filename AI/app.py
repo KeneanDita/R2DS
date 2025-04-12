@@ -9,13 +9,17 @@ model = joblib.load("store_size_model.joblib")
 
 @app.route('/predict', methods=['GET', 'POST'])
 def predict():
-    if request.method == 'POST':
+    try:
         data = request.get_json()
         features = data['features']
+
+        if len(features) != 8:
+            return jsonify({'error': f'Expected 8 features, got {len(features)}'}), 400
+
         prediction = model.predict([features])
         return jsonify({'prediction': prediction.tolist()})
-    else:
-        return "Send a POST request with JSON input."
+    except Exception as e:
+        return jsonify({'error': str(e)}), 400
 
 @app.route('/')
 def home():

@@ -47,3 +47,18 @@ if st.button("Predict"):
         
     else:
         st.error("Please provide all 8 feature values.")
+
+
+
+
+
+# Get feature importance from the model (for RandomForest or similar models)
+importances = model.feature_importances_
+
+# Plot the feature importance using Streamlit
+st.subheader("Feature Importance (Bar Chart)")
+plt.figure(figsize=(8, 6))
+plt.barh([f"Feature {i+1}" for i in range(8)], importances)
+plt.xlabel("Importance")
+plt.title("Feature Importance")
+st.pyplot(plt)

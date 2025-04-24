@@ -3,5 +3,5 @@ from fastapi import FastAPI
 app = FastAPI()
 
 @app.get("/")
-def home():
-    return {'data':45}
+def read_root():
+    return {"message": "Hello"}

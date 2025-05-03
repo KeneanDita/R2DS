@@ -1,0 +1,17 @@
+digraph Tree {
+node [shape=box, style="filled, rounded", color="black", fontname="helvetica"] ;
+edge [fontname="helvetica"] ;
+0 [label=<MolLogP &le; 2.776<br/>squared_error = 4.169<br/>samples = 580<br/>value = -2.963>, fillcolor="#eeac7d"] ;
+1 [label=<MolLogP &le; 1.711<br/>squared_error = 1.797<br/>samples = 368<br/>value = -1.853>, fillcolor="#e89152"] ;
+0 -> 1 [labeldistance=2.5, labelangle=45, headlabel="True"] ;
+2 [label=<squared_error = 1.525<br/>samples = 188<br/>value = -1.215>, fillcolor="#e58139"] ;
+1 -> 2 ;
+3 [label=<squared_error = 1.039<br/>samples = 180<br/>value = -2.625>, fillcolor="#eca470"] ;
+1 -> 3 ;
+4 [label=<MolLogP &le; 4.114<br/>squared_error = 2.172<br/>samples = 212<br/>value = -4.979>, fillcolor="#f8decb"] ;
+0 -> 4 [labeldistance=2.5, labelangle=-45, headlabel="False"] ;
+5 [label=<squared_error = 0.655<br/>samples = 132<br/>value = -4.113>, fillcolor="#f4c8a9"] ;
+4 -> 5 ;
+6 [label=<squared_error = 1.546<br/>samples = 80<br/>value = -6.329>, fillcolor="#ffffff"] ;
+4 -> 6 ;
+}

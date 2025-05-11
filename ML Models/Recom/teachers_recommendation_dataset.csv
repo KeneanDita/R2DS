@@ -1,0 +1,301 @@
+Teacher_ID,Primary_Subject,Secondary_Subject,Education_Level,Years_of_Experience,Teaching_Style,Certifications,Availability,Language,Student_Rating,Courses_Taught,Is_Research_Active
+T001,Biology,Biology,Masters,22,Hybrid,TESOL,Full-time,French,4.42,48,False
+T002,Mathematics,History,Masters,15,Hybrid,PGCE,Full-time,French,4.39,17,True
+T003,Geography,English,PhD,1,Lecture-based,PGCE,Visiting,German,4.65,36,False
+T004,Computer Science,Computer Science,Bachelors,3,Interactive,PGCE,Part-time,English,3.37,37,True
+T005,Philosophy,History,PhD,2,Project-based,M.Ed,Part-time,English,4.44,49,True
+T006,Geography,Biology,Masters,25,Interactive,PGCE,Full-time,Mandarin,3.06,39,False
+T007,Mathematics,Biology,Masters,19,Interactive,TESOL,Visiting,French,4.99,43,True
+T008,Chemistry,History,Bachelors,7,Hybrid,B.Ed,Full-time,Mandarin,4.98,47,False
+T009,Physics,Geography,PhD,18,Flipped Classroom,M.Ed,Visiting,Spanish,3.44,33,True
+T010,Physics,Physics,Masters,21,Hybrid,B.Ed,Full-time,French,3.33,21,True
+T011,English,Physics,Bachelors,28,Flipped Classroom,PGCE,Full-time,Mandarin,3.65,28,False
+T012,Philosophy,Physics,Bachelors,10,Project-based,Online Certifications,Part-time,English,3.84,9,False
+T013,Economics,Chemistry,PhD,27,Hybrid,B.Ed,Full-time,Mandarin,3.45,27,True
+T014,Physics,Chemistry,Bachelors,25,Project-based,B.Ed,Full-time,French,4.49,36,False
+T015,Chemistry,Computer Science,Masters,30,Lecture-based,B.Ed,Full-time,French,4.4,7,True
+T016,Economics,Economics,PhD,5,Interactive,TESOL,Visiting,Mandarin,3.98,40,True
+T017,English,Economics,Masters,30,Hybrid,Online Certifications,Visiting,English,3.54,11,False
+T018,Chemistry,Physics,Bachelors,17,Lecture-based,None,Part-time,Spanish,4.82,25,True
+T019,Economics,History,Bachelors,9,Project-based,B.Ed,Part-time,French,3.02,41,False
+T020,Economics,Mathematics,PhD,22,Flipped Classroom,M.Ed,Full-time,Mandarin,4.74,8,True
+T021,Computer Science,Physics,PhD,27,Flipped Classroom,PGCE,Part-time,English,4.85,30,False
+T022,History,Economics,Masters,13,Project-based,M.Ed,Part-time,Spanish,4.72,18,False
+T023,Mathematics,Biology,Masters,19,Flipped Classroom,PGCE,Full-time,German,3.9,18,True
+T024,Computer Science,Physics,Masters,6,Project-based,PGCE,Visiting,English,4.59,38,False
+T025,Biology,Physics,Bachelors,5,Lecture-based,M.Ed,Visiting,German,4.78,42,False
+T026,Philosophy,Computer Science,PhD,26,Lecture-based,M.Ed,Visiting,Mandarin,3.79,18,False
+T027,English,Mathematics,PhD,23,Project-based,PGCE,Part-time,Mandarin,3.41,41,True
+T028,Physics,Philosophy,Masters,15,Interactive,None,Part-time,Mandarin,3.47,30,False
+T029,Geography,History,PhD,24,Interactive,Online Certifications,Part-time,German,3.16,40,False
+T030,Biology,Biology,Bachelors,16,Lecture-based,Online Certifications,Full-time,Mandarin,3.58,29,True
+T031,History,Computer Science,Bachelors,17,Interactive,PGCE,Part-time,French,3.24,23,True
+T032,Computer Science,Biology,PhD,15,Lecture-based,PGCE,Visiting,Mandarin,3.2,31,False
+T033,Mathematics,Computer Science,Masters,15,Interactive,TESOL,Visiting,German,4.27,15,True
+T034,Mathematics,Biology,PhD,29,Flipped Classroom,PGCE,Part-time,English,4.32,16,True
+T035,Economics,Geography,Bachelors,18,Interactive,TESOL,Full-time,French,3.63,26,False
+T036,English,Physics,PhD,28,Lecture-based,TESOL,Part-time,French,4.12,50,True
+T037,Philosophy,Economics,PhD,21,Hybrid,None,Visiting,English,3.47,45,False
+T038,Biology,Philosophy,Bachelors,17,Flipped Classroom,M.Ed,Visiting,French,4.93,15,False
+T039,Physics,English,Bachelors,3,Lecture-based,TESOL,Visiting,German,3.92,42,False
+T040,English,Biology,PhD,4,Flipped Classroom,TESOL,Part-time,French,4.98,31,False
+T041,Chemistry,Computer Science,PhD,30,Flipped Classroom,M.Ed,Visiting,Mandarin,3.92,5,True
+T042,History,History,Masters,21,Lecture-based,PGCE,Part-time,French,4.26,11,True
+T043,English,History,PhD,30,Flipped Classroom,None,Full-time,Spanish,3.17,21,False
+T044,Mathematics,English,Masters,12,Hybrid,PGCE,Full-time,Mandarin,4.99,14,True
+T045,Economics,Geography,PhD,14,Lecture-based,B.Ed,Part-time,Spanish,3.09,21,True
+T046,Economics,Biology,PhD,24,Hybrid,None,Visiting,French,3.66,19,True
+T047,Philosophy,Physics,Bachelors,19,Project-based,Online Certifications,Full-time,Spanish,4.43,42,True
+T048,Philosophy,Chemistry,Bachelors,9,Hybrid,B.Ed,Visiting,German,4.27,14,False
+T049,English,Geography,Masters,19,Interactive,PGCE,Visiting,German,4.26,7,False
+T050,History,Geography,Masters,30,Lecture-based,TESOL,Part-time,German,4.15,50,False
+T051,Philosophy,English,Masters,24,Hybrid,PGCE,Full-time,Mandarin,4.52,15,True
+T052,Mathematics,Geography,Bachelors,15,Hybrid,M.Ed,Full-time,Spanish,4.86,32,True
+T053,Physics,History,Bachelors,10,Interactive,None,Visiting,French,3.35,46,False
+T054,Philosophy,History,Masters,9,Flipped Classroom,M.Ed,Full-time,German,4.99,27,True
+T055,Chemistry,Physics,Masters,11,Interactive,PGCE,Full-time,English,4.12,11,True
+T056,Biology,English,PhD,22,Flipped Classroom,None,Part-time,English,3.2,32,True
+T057,Chemistry,Philosophy,PhD,4,Project-based,PGCE,Full-time,Mandarin,3.76,43,True
+T058,Philosophy,History,Masters,27,Interactive,TESOL,Part-time,Spanish,4.37,18,False
+T059,Geography,Chemistry,Bachelors,30,Lecture-based,PGCE,Visiting,German,4.8,30,False
+T060,Computer Science,Chemistry,Bachelors,29,Hybrid,M.Ed,Full-time,English,4.75,46,False
+T061,Computer Science,Physics,Masters,17,Project-based,None,Visiting,Spanish,3.54,49,True
+T062,Philosophy,Mathematics,Masters,20,Interactive,TESOL,Part-time,German,4.55,44,True
+T063,English,History,Bachelors,14,Flipped Classroom,None,Full-time,German,3.71,17,False
+T064,Geography,English,Bachelors,25,Lecture-based,Online Certifications,Part-time,French,4.63,43,True
+T065,Biology,Computer Science,Bachelors,23,Flipped Classroom,B.Ed,Part-time,German,4.25,11,True
+T066,Economics,Mathematics,PhD,7,Project-based,TESOL,Full-time,Spanish,4.82,29,False
+T067,Physics,Physics,PhD,9,Lecture-based,None,Visiting,Mandarin,3.32,31,False
+T068,Computer Science,Economics,PhD,7,Project-based,Online Certifications,Visiting,English,4.67,34,True
+T069,English,Computer Science,PhD,7,Flipped Classroom,PGCE,Full-time,German,4.2,29,False
+T070,Biology,Biology,PhD,9,Project-based,Online Certifications,Part-time,Spanish,3.97,49,False
+T071,Biology,Computer Science,Masters,6,Project-based,B.Ed,Full-time,German,4.79,7,False
+T072,Physics,Mathematics,Masters,3,Lecture-based,B.Ed,Full-time,English,4.5,9,True
+T073,English,Geography,Masters,15,Lecture-based,PGCE,Full-time,English,4.0,7,True
+T074,Physics,Economics,PhD,29,Lecture-based,None,Full-time,French,4.95,37,True
+T075,History,Economics,PhD,23,Flipped Classroom,None,Part-time,Mandarin,3.67,11,True
+T076,History,Biology,Bachelors,1,Project-based,M.Ed,Full-time,English,3.66,37,False
+T077,English,Chemistry,Bachelors,17,Project-based,M.Ed,Visiting,Mandarin,3.49,27,True
+T078,Geography,Biology,Masters,8,Hybrid,B.Ed,Full-time,Mandarin,4.26,32,True
+T079,History,Biology,Bachelors,5,Lecture-based,TESOL,Visiting,English,4.73,28,False
+T080,History,Physics,Masters,23,Hybrid,None,Visiting,German,4.3,27,False
+T081,Computer Science,Biology,Bachelors,20,Hybrid,None,Part-time,German,4.65,9,False
+T082,History,Philosophy,PhD,24,Hybrid,M.Ed,Part-time,Mandarin,3.14,40,False
+T083,Physics,History,Masters,19,Interactive,Online Certifications,Visiting,German,4.12,42,True
+T084,Geography,Physics,Bachelors,28,Hybrid,B.Ed,Full-time,German,3.85,41,True
+T085,Biology,Philosophy,Masters,29,Interactive,None,Full-time,English,3.35,34,True
+T086,Philosophy,Chemistry,Masters,25,Interactive,PGCE,Part-time,French,3.52,30,True
+T087,Mathematics,Physics,PhD,20,Lecture-based,B.Ed,Full-time,English,3.47,8,True
+T088,Mathematics,English,Bachelors,16,Flipped Classroom,M.Ed,Visiting,French,3.71,9,True
+T089,History,Physics,Masters,3,Project-based,M.Ed,Full-time,Mandarin,3.78,14,True
+T090,Computer Science,English,Masters,22,Flipped Classroom,None,Full-time,English,3.12,12,False
+T091,Economics,Biology,Bachelors,26,Hybrid,Online Certifications,Visiting,Mandarin,4.89,13,True
+T092,Chemistry,Philosophy,PhD,18,Flipped Classroom,B.Ed,Part-time,Mandarin,3.8,43,True
+T093,Mathematics,History,Bachelors,14,Flipped Classroom,M.Ed,Visiting,French,3.43,22,False
+T094,History,Computer Science,PhD,1,Project-based,TESOL,Visiting,Spanish,4.91,6,True
+T095,Mathematics,Biology,Masters,21,Project-based,M.Ed,Full-time,Spanish,3.45,32,False
+T096,Biology,Geography,PhD,30,Lecture-based,Online Certifications,Part-time,Mandarin,3.69,9,True
+T097,Philosophy,Geography,Masters,1,Flipped Classroom,PGCE,Visiting,English,3.85,23,False
+T098,Philosophy,Biology,PhD,7,Hybrid,M.Ed,Full-time,German,3.93,26,True
+T099,Mathematics,Economics,Masters,1,Flipped Classroom,Online Certifications,Part-time,French,4.48,29,False
+T100,Mathematics,Biology,Bachelors,16,Hybrid,None,Full-time,Spanish,3.66,5,False
+T101,Geography,Geography,PhD,14,Flipped Classroom,Online Certifications,Visiting,Mandarin,4.67,33,False
+T102,English,Chemistry,Bachelors,20,Interactive,M.Ed,Full-time,French,3.27,37,False
+T103,Biology,Physics,Bachelors,30,Lecture-based,M.Ed,Full-time,Spanish,3.8,40,False
+T104,Economics,Computer Science,Masters,11,Lecture-based,B.Ed,Part-time,Mandarin,3.2,26,False
+T105,Biology,Mathematics,PhD,8,Lecture-based,M.Ed,Full-time,English,4.68,29,True
+T106,Economics,Economics,Bachelors,10,Interactive,TESOL,Part-time,English,4.94,27,True
+T107,Physics,Physics,Bachelors,23,Lecture-based,Online Certifications,Full-time,French,4.84,18,False
+T108,Geography,Economics,Bachelors,10,Lecture-based,None,Part-time,Spanish,4.21,34,False
+T109,Physics,Economics,PhD,2,Flipped Classroom,None,Visiting,English,4.36,34,True
+T110,Geography,Biology,Masters,20,Flipped Classroom,PGCE,Visiting,English,3.04,30,False
+T111,Geography,Physics,Bachelors,22,Flipped Classroom,None,Visiting,German,4.87,13,True
+T112,Geography,Physics,Masters,18,Hybrid,M.Ed,Part-time,German,3.06,49,True
+T113,Computer Science,Chemistry,PhD,13,Project-based,M.Ed,Full-time,French,4.16,38,False
+T114,Mathematics,Biology,PhD,28,Flipped Classroom,Online Certifications,Visiting,Spanish,3.93,42,True
+T115,History,Physics,Masters,20,Flipped Classroom,TESOL,Part-time,Mandarin,4.19,31,False
+T116,Economics,History,Bachelors,27,Hybrid,PGCE,Part-time,English,3.8,40,True
+T117,English,Geography,PhD,18,Hybrid,Online Certifications,Full-time,French,3.11,39,True
+T118,Geography,Geography,PhD,12,Hybrid,TESOL,Full-time,English,3.39,10,True
+T119,Biology,Philosophy,PhD,3,Hybrid,M.Ed,Full-time,English,4.27,48,False
+T120,Philosophy,Geography,Bachelors,22,Interactive,M.Ed,Part-time,French,3.57,30,True
+T121,Economics,English,Bachelors,8,Project-based,PGCE,Full-time,Mandarin,3.24,45,False
+T122,Chemistry,Geography,Masters,1,Interactive,None,Visiting,Spanish,4.8,49,False
+T123,Physics,Philosophy,PhD,17,Hybrid,Online Certifications,Visiting,French,4.97,45,True
+T124,Mathematics,Philosophy,Masters,30,Project-based,TESOL,Visiting,English,3.32,45,True
+T125,English,Mathematics,Bachelors,25,Hybrid,B.Ed,Part-time,English,3.19,35,False
+T126,English,English,PhD,16,Interactive,Online Certifications,Part-time,Mandarin,4.35,44,False
+T127,Economics,Biology,Bachelors,17,Hybrid,M.Ed,Visiting,Spanish,3.13,41,False
+T128,History,Geography,PhD,28,Project-based,PGCE,Visiting,English,4.95,22,True
+T129,History,Biology,Bachelors,24,Hybrid,Online Certifications,Visiting,Spanish,4.47,26,True
+T130,Philosophy,Philosophy,Bachelors,26,Interactive,PGCE,Full-time,Spanish,3.76,36,True
+T131,English,Physics,Bachelors,2,Interactive,B.Ed,Full-time,Spanish,3.99,13,True
+T132,Mathematics,Mathematics,PhD,10,Project-based,B.Ed,Visiting,German,4.52,6,True
+T133,Chemistry,Mathematics,PhD,26,Interactive,TESOL,Part-time,English,4.12,10,False
+T134,Geography,Computer Science,PhD,16,Lecture-based,Online Certifications,Full-time,French,4.95,6,False
+T135,Mathematics,Computer Science,Masters,8,Hybrid,B.Ed,Part-time,French,4.72,42,True
+T136,Biology,Biology,Bachelors,23,Lecture-based,TESOL,Part-time,French,3.26,26,False
+T137,English,English,PhD,13,Lecture-based,None,Full-time,French,4.75,40,True
+T138,Computer Science,Economics,Bachelors,20,Flipped Classroom,PGCE,Visiting,Spanish,3.01,6,True
+T139,Geography,Economics,Bachelors,28,Lecture-based,B.Ed,Full-time,English,3.41,7,True
+T140,Economics,History,Masters,16,Lecture-based,PGCE,Part-time,Mandarin,3.45,8,False
+T141,Chemistry,Geography,Bachelors,22,Flipped Classroom,M.Ed,Full-time,Mandarin,3.5,14,False
+T142,Geography,Geography,Bachelors,25,Project-based,PGCE,Visiting,French,3.0,46,True
+T143,English,Chemistry,Bachelors,7,Hybrid,PGCE,Full-time,French,3.21,31,False
+T144,History,English,PhD,24,Interactive,B.Ed,Visiting,German,3.99,18,True
+T145,Computer Science,Biology,PhD,13,Flipped Classroom,M.Ed,Part-time,German,3.57,45,True
+T146,Economics,Computer Science,Bachelors,21,Interactive,Online Certifications,Part-time,Spanish,4.38,12,False
+T147,History,Computer Science,PhD,27,Interactive,B.Ed,Part-time,English,3.49,9,False
+T148,Mathematics,Geography,PhD,3,Interactive,PGCE,Visiting,English,3.61,23,False
+T149,Chemistry,Geography,Masters,12,Interactive,None,Visiting,English,4.62,19,False
+T150,Philosophy,Physics,Bachelors,11,Flipped Classroom,PGCE,Part-time,German,4.11,33,False
+T151,Economics,Biology,Masters,21,Flipped Classroom,B.Ed,Part-time,Spanish,4.84,13,True
+T152,Physics,Computer Science,Masters,14,Lecture-based,B.Ed,Full-time,English,4.53,47,True
+T153,Geography,Geography,Bachelors,30,Interactive,M.Ed,Full-time,Spanish,3.57,25,True
+T154,Mathematics,Philosophy,PhD,12,Flipped Classroom,None,Visiting,Spanish,3.72,21,True
+T155,Biology,History,Bachelors,12,Lecture-based,PGCE,Full-time,Spanish,3.81,14,True
+T156,Philosophy,Mathematics,PhD,27,Hybrid,TESOL,Full-time,Spanish,3.87,22,True
+T157,Mathematics,History,Bachelors,16,Hybrid,B.Ed,Visiting,German,4.0,50,True
+T158,Mathematics,Computer Science,Bachelors,1,Interactive,TESOL,Visiting,Mandarin,4.24,40,False
+T159,Philosophy,Mathematics,Bachelors,10,Lecture-based,B.Ed,Part-time,Mandarin,4.52,29,False
+T160,Economics,Mathematics,Bachelors,26,Lecture-based,PGCE,Full-time,Mandarin,3.39,11,True
+T161,Philosophy,Computer Science,PhD,11,Lecture-based,PGCE,Part-time,English,3.25,17,False
+T162,History,Mathematics,PhD,25,Hybrid,Online Certifications,Visiting,French,4.84,39,False
+T163,Geography,History,PhD,7,Lecture-based,Online Certifications,Visiting,Mandarin,3.13,41,True
+T164,Chemistry,Economics,Masters,1,Project-based,Online Certifications,Part-time,German,4.95,24,True
+T165,Economics,Geography,Bachelors,20,Flipped Classroom,None,Full-time,English,4.73,35,False
+T166,Physics,History,Bachelors,5,Interactive,None,Full-time,Spanish,4.29,48,True
+T167,Mathematics,Biology,Bachelors,27,Lecture-based,None,Full-time,Spanish,4.76,40,False
+T168,Chemistry,Physics,Masters,1,Lecture-based,None,Part-time,English,4.76,38,True
+T169,Chemistry,Mathematics,PhD,16,Lecture-based,B.Ed,Part-time,English,4.7,48,True
+T170,English,Geography,Masters,16,Project-based,None,Full-time,Spanish,4.61,43,False
+T171,Mathematics,Biology,Bachelors,3,Lecture-based,M.Ed,Visiting,Mandarin,4.78,29,True
+T172,Mathematics,Geography,PhD,16,Hybrid,None,Full-time,English,3.83,26,True
+T173,Chemistry,Economics,PhD,28,Project-based,Online Certifications,Part-time,French,4.14,34,True
+T174,Computer Science,Philosophy,Bachelors,2,Interactive,PGCE,Full-time,Mandarin,3.96,21,False
+T175,Mathematics,Computer Science,Bachelors,22,Flipped Classroom,B.Ed,Part-time,French,3.47,46,True
+T176,Geography,Geography,PhD,15,Flipped Classroom,PGCE,Part-time,French,3.39,14,True
+T177,Mathematics,Mathematics,Masters,29,Flipped Classroom,TESOL,Visiting,English,3.75,19,False
+T178,Computer Science,History,Masters,15,Flipped Classroom,B.Ed,Visiting,Spanish,4.99,43,True
+T179,Chemistry,Computer Science,Masters,13,Interactive,TESOL,Visiting,Mandarin,4.5,27,True
+T180,Physics,Physics,Masters,12,Flipped Classroom,None,Part-time,Spanish,4.51,36,True
+T181,Biology,Geography,Masters,11,Project-based,Online Certifications,Part-time,Mandarin,4.42,10,True
+T182,Chemistry,Geography,Masters,12,Project-based,M.Ed,Visiting,Mandarin,4.67,14,True
+T183,Economics,Philosophy,PhD,19,Flipped Classroom,None,Part-time,Spanish,4.24,11,False
+T184,Physics,History,Masters,15,Lecture-based,None,Part-time,Mandarin,3.1,5,True
+T185,Chemistry,Biology,Bachelors,25,Lecture-based,B.Ed,Visiting,Mandarin,4.74,9,True
+T186,Computer Science,English,Masters,4,Project-based,M.Ed,Visiting,English,4.86,9,True
+T187,Philosophy,Mathematics,Masters,13,Hybrid,None,Part-time,French,3.54,31,True
+T188,Biology,Mathematics,Masters,20,Hybrid,Online Certifications,Visiting,French,3.29,42,False
+T189,Geography,Geography,Bachelors,29,Interactive,Online Certifications,Full-time,German,4.4,32,False
+T190,Mathematics,Biology,Bachelors,27,Project-based,B.Ed,Full-time,English,3.53,38,True
+T191,Chemistry,Geography,PhD,21,Project-based,None,Visiting,German,4.15,9,True
+T192,Economics,English,Bachelors,1,Flipped Classroom,None,Part-time,German,3.96,41,True
+T193,Geography,English,Masters,8,Lecture-based,PGCE,Full-time,English,3.48,10,False
+T194,Computer Science,Philosophy,PhD,3,Project-based,PGCE,Full-time,German,4.34,13,False
+T195,Chemistry,Geography,Masters,5,Hybrid,None,Visiting,English,3.34,34,False
+T196,Philosophy,Computer Science,PhD,19,Hybrid,Online Certifications,Full-time,French,3.67,10,False
+T197,Philosophy,Physics,PhD,24,Hybrid,B.Ed,Full-time,German,3.95,39,True
+T198,English,Mathematics,Masters,25,Flipped Classroom,PGCE,Part-time,English,3.19,32,False
+T199,Economics,English,Bachelors,28,Lecture-based,None,Visiting,English,3.53,27,True
+T200,History,Chemistry,Bachelors,18,Project-based,None,Visiting,French,4.81,44,False
+T201,Chemistry,Chemistry,Bachelors,20,Lecture-based,M.Ed,Full-time,Spanish,4.43,25,True
+T202,Geography,Physics,PhD,27,Project-based,PGCE,Part-time,German,4.43,23,False
+T203,Mathematics,Geography,PhD,29,Flipped Classroom,PGCE,Full-time,German,4.01,10,True
+T204,Geography,Physics,Bachelors,14,Hybrid,Online Certifications,Full-time,French,3.23,19,True
+T205,English,Mathematics,PhD,12,Flipped Classroom,TESOL,Part-time,Mandarin,4.79,44,False
+T206,Philosophy,English,PhD,2,Lecture-based,TESOL,Full-time,English,3.12,41,False
+T207,Chemistry,Chemistry,PhD,26,Flipped Classroom,M.Ed,Part-time,French,4.74,37,False
+T208,Chemistry,Philosophy,Masters,7,Project-based,M.Ed,Visiting,French,3.77,30,True
+T209,Economics,Philosophy,PhD,15,Flipped Classroom,None,Visiting,English,3.09,27,False
+T210,English,Physics,Masters,15,Project-based,Online Certifications,Full-time,English,4.07,42,False
+T211,Physics,Physics,Masters,7,Project-based,None,Full-time,German,3.67,43,True
+T212,Physics,Computer Science,Bachelors,23,Flipped Classroom,PGCE,Visiting,French,3.48,38,False
+T213,Geography,Computer Science,Bachelors,30,Flipped Classroom,None,Full-time,French,3.51,31,False
+T214,Biology,Philosophy,PhD,2,Flipped Classroom,Online Certifications,Visiting,German,4.39,13,True
+T215,Mathematics,Physics,Bachelors,27,Lecture-based,TESOL,Visiting,Mandarin,4.13,31,True
+T216,Physics,Computer Science,PhD,20,Flipped Classroom,Online Certifications,Visiting,German,3.45,47,False
+T217,Physics,English,PhD,4,Flipped Classroom,Online Certifications,Visiting,English,3.07,27,True
+T218,Chemistry,Biology,PhD,13,Lecture-based,B.Ed,Part-time,German,4.77,26,False
+T219,Mathematics,Economics,PhD,14,Project-based,Online Certifications,Full-time,English,3.56,7,True
+T220,Computer Science,Computer Science,PhD,3,Project-based,None,Part-time,Spanish,4.56,50,False
+T221,History,Mathematics,PhD,15,Project-based,None,Full-time,Mandarin,3.55,12,False
+T222,Philosophy,Chemistry,PhD,15,Hybrid,Online Certifications,Visiting,German,3.52,15,False
+T223,Philosophy,Geography,PhD,19,Flipped Classroom,Online Certifications,Full-time,German,3.82,24,True
+T224,Physics,Computer Science,PhD,10,Flipped Classroom,M.Ed,Visiting,Spanish,4.96,13,True
+T225,Philosophy,Chemistry,Masters,16,Interactive,None,Full-time,English,4.71,17,False
+T226,Chemistry,Computer Science,Bachelors,17,Interactive,PGCE,Visiting,German,4.55,21,False
+T227,Biology,Economics,Bachelors,1,Hybrid,None,Part-time,German,3.21,26,True
+T228,History,Economics,Bachelors,24,Interactive,None,Part-time,German,3.1,43,False
+T229,Computer Science,Geography,Masters,20,Hybrid,Online Certifications,Part-time,Mandarin,4.88,37,True
+T230,Philosophy,Philosophy,Bachelors,28,Project-based,B.Ed,Visiting,English,3.08,33,True
+T231,Physics,Economics,PhD,27,Project-based,M.Ed,Full-time,French,3.66,36,True
+T232,Economics,Philosophy,PhD,8,Hybrid,Online Certifications,Visiting,Mandarin,3.05,48,False
+T233,Biology,Economics,Masters,10,Flipped Classroom,PGCE,Visiting,German,4.4,9,False
+T234,English,Chemistry,Masters,27,Lecture-based,None,Full-time,English,4.78,8,False
+T235,Mathematics,English,Masters,11,Flipped Classroom,PGCE,Part-time,French,4.06,44,False
+T236,Chemistry,Philosophy,PhD,28,Hybrid,Online Certifications,Part-time,Mandarin,3.65,18,True
+T237,Philosophy,Economics,PhD,13,Interactive,TESOL,Part-time,Mandarin,3.49,37,False
+T238,Economics,History,PhD,10,Project-based,Online Certifications,Part-time,French,3.72,48,True
+T239,Philosophy,Biology,Bachelors,27,Project-based,M.Ed,Full-time,Mandarin,4.83,8,True
+T240,Computer Science,Computer Science,Masters,13,Flipped Classroom,Online Certifications,Visiting,Mandarin,4.2,33,True
+T241,Chemistry,Philosophy,Masters,22,Hybrid,PGCE,Visiting,Mandarin,3.15,31,True
+T242,Economics,History,PhD,14,Lecture-based,B.Ed,Full-time,French,3.66,14,True
+T243,Philosophy,Economics,Masters,10,Project-based,PGCE,Visiting,German,3.17,41,False
+T244,Physics,Chemistry,Bachelors,25,Project-based,TESOL,Full-time,German,3.57,5,False
+T245,Physics,Mathematics,Masters,19,Hybrid,PGCE,Visiting,French,3.85,40,False
+T246,English,Mathematics,Bachelors,29,Project-based,PGCE,Part-time,French,4.29,46,True
+T247,Chemistry,History,Bachelors,26,Lecture-based,Online Certifications,Visiting,French,4.71,23,False
+T248,English,Economics,PhD,14,Project-based,M.Ed,Part-time,Mandarin,3.49,45,False
+T249,Biology,Philosophy,PhD,17,Project-based,Online Certifications,Part-time,German,3.92,46,True
+T250,Philosophy,Philosophy,Masters,3,Project-based,Online Certifications,Full-time,German,4.9,27,False
+T251,Philosophy,Chemistry,Bachelors,2,Hybrid,PGCE,Visiting,German,4.3,6,True
+T252,Economics,Economics,Masters,19,Hybrid,TESOL,Full-time,Mandarin,4.12,24,False
+T253,Economics,Philosophy,Masters,15,Lecture-based,Online Certifications,Visiting,Mandarin,4.86,8,True
+T254,Computer Science,English,Bachelors,13,Lecture-based,M.Ed,Visiting,Mandarin,3.01,30,False
+T255,Computer Science,Biology,Masters,13,Hybrid,M.Ed,Part-time,English,4.06,34,False
+T256,Geography,Biology,PhD,20,Interactive,None,Visiting,French,3.02,42,True
+T257,Biology,Geography,Bachelors,14,Project-based,PGCE,Full-time,French,4.84,10,True
+T258,History,Computer Science,Masters,21,Interactive,PGCE,Full-time,Mandarin,4.99,11,True
+T259,Physics,Physics,Bachelors,24,Project-based,PGCE,Visiting,Spanish,3.26,26,True
+T260,Computer Science,Mathematics,Masters,25,Flipped Classroom,None,Full-time,English,4.39,10,True
+T261,Chemistry,Biology,Masters,10,Flipped Classroom,M.Ed,Part-time,French,3.91,20,False
+T262,Philosophy,Economics,Masters,2,Interactive,PGCE,Part-time,German,4.56,18,True
+T263,Biology,History,Masters,7,Lecture-based,Online Certifications,Part-time,Spanish,3.75,16,True
+T264,Computer Science,Chemistry,Bachelors,21,Lecture-based,None,Full-time,French,3.92,16,True
+T265,Physics,Mathematics,Bachelors,6,Lecture-based,PGCE,Part-time,French,4.69,40,True
+T266,Geography,Philosophy,PhD,15,Lecture-based,M.Ed,Part-time,German,4.4,20,False
+T267,Economics,Physics,PhD,2,Lecture-based,M.Ed,Full-time,English,3.08,6,True
+T268,Physics,Geography,PhD,28,Flipped Classroom,PGCE,Part-time,Spanish,3.87,44,True
+T269,Physics,Philosophy,Masters,4,Lecture-based,None,Full-time,English,3.38,46,False
+T270,Physics,Computer Science,Bachelors,9,Lecture-based,B.Ed,Full-time,Spanish,4.05,43,True
+T271,Chemistry,Geography,Masters,5,Flipped Classroom,B.Ed,Full-time,English,3.15,27,True
+T272,Biology,Biology,PhD,27,Project-based,B.Ed,Part-time,English,4.91,17,True
+T273,Geography,Geography,PhD,12,Flipped Classroom,TESOL,Visiting,Spanish,3.43,38,True
+T274,Chemistry,Geography,PhD,12,Lecture-based,PGCE,Visiting,Spanish,4.63,43,False
+T275,Mathematics,Biology,Masters,27,Interactive,PGCE,Part-time,German,4.72,49,True
+T276,English,Philosophy,Bachelors,16,Interactive,M.Ed,Visiting,German,4.4,45,True
+T277,Geography,Physics,Masters,20,Project-based,None,Visiting,English,3.9,15,True
+T278,Geography,History,Masters,11,Interactive,B.Ed,Visiting,English,3.16,38,True
+T279,Physics,Chemistry,PhD,30,Flipped Classroom,Online Certifications,Visiting,German,4.93,44,True
+T280,Economics,Economics,Masters,23,Lecture-based,Online Certifications,Full-time,Mandarin,3.13,23,True
+T281,Physics,Physics,Bachelors,26,Hybrid,None,Full-time,Mandarin,4.45,28,True
+T282,Mathematics,Biology,Masters,9,Hybrid,None,Visiting,Mandarin,4.35,49,True
+T283,Biology,History,PhD,18,Interactive,PGCE,Visiting,Mandarin,3.11,50,True
+T284,Geography,Philosophy,PhD,7,Hybrid,TESOL,Full-time,French,3.23,16,True
+T285,Philosophy,English,Bachelors,1,Hybrid,B.Ed,Visiting,Spanish,4.96,33,True
+T286,Economics,English,Bachelors,28,Flipped Classroom,PGCE,Visiting,English,4.06,37,True
+T287,History,Chemistry,Bachelors,9,Project-based,PGCE,Visiting,English,4.37,21,False
+T288,Philosophy,Mathematics,PhD,26,Lecture-based,B.Ed,Visiting,French,3.53,30,False
+T289,Biology,Mathematics,Masters,24,Flipped Classroom,None,Full-time,German,3.85,11,False
+T290,Chemistry,English,Bachelors,25,Project-based,Online Certifications,Visiting,Mandarin,4.39,27,False
+T291,Physics,English,Bachelors,14,Flipped Classroom,TESOL,Full-time,Mandarin,4.88,42,True
+T292,Economics,Mathematics,PhD,17,Project-based,PGCE,Part-time,Spanish,3.69,34,False
+T293,Geography,History,Masters,4,Interactive,None,Full-time,Mandarin,4.53,33,False
+T294,Chemistry,Physics,Masters,7,Flipped Classroom,None,Full-time,French,3.49,39,True
+T295,Biology,Economics,PhD,1,Project-based,B.Ed,Visiting,Mandarin,3.58,40,True
+T296,Chemistry,Philosophy,Masters,20,Project-based,Online Certifications,Visiting,Spanish,3.91,28,True
+T297,Biology,Biology,Bachelors,9,Flipped Classroom,TESOL,Part-time,Spanish,4.6,39,True
+T298,Geography,Mathematics,PhD,6,Flipped Classroom,B.Ed,Visiting,German,4.7,13,True
+T299,Mathematics,Physics,Masters,28,Flipped Classroom,Online Certifications,Full-time,Mandarin,4.63,29,False
+T300,English,Economics,Bachelors,24,Flipped Classroom,Online Certifications,Visiting,Mandarin,3.03,33,False

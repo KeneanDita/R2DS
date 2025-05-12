@@ -37,9 +37,6 @@ print("Total Cost:", total_cost)
 #output: UCS Path: ['S', 'A', 'C', 'G']
 # Total Cost: 4
 
-
-
-
 print("""
 b)
 (i) Is h1 admissible?

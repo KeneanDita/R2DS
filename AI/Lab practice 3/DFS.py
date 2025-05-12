@@ -16,3 +16,6 @@ graph_dfs = {
 }
 
 dfs(graph_dfs, '0')
+
+#output = 0 2 1 3 4
+# The output of the DFS traversal is printed in the order of visiting nodes.

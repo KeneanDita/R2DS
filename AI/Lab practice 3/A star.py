@@ -43,3 +43,6 @@ heuristics = {
 }
 
 print("\nA* Path:", a_star(graph_astar, 'S', 'G', heuristics))
+
+#output = A* Path: ['S', 'A', 'C', 'G']
+# The output of the A* algorithm is the path from start to goal node.

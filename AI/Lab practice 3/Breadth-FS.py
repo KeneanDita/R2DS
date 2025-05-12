@@ -21,3 +21,6 @@ graph_bfs = {
 }
 
 bfs(graph_bfs, 'A')
+
+#output = A B C D E F
+# The output of the BFS traversal is printed in the order of visiting nodes.

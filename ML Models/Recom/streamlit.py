@@ -4,11 +4,11 @@ import numpy as np
 import joblib
 from sklearn.metrics.pairwise import cosine_similarity
 
-teacher_vectors = np.load("teacher_vectors.npy", allow_pickle=True)
+teacher_vectors = np.load("assets/teacher_vectors.npy", allow_pickle=True)
 # Load saved models and data
-scaler = joblib.load("scaler.pkl")
-features = joblib.load("features.pkl")
-data = pd.read_csv("original_teachers_df.csv")  # renamed from original_df
+scaler = joblib.load("assets/scaler.pkl")
+features = joblib.load("assets/features.pkl")
+data = pd.read_csv("assets/original_teachers_df.csv")  # renamed from original_df
 
 # Feature options
 primary_subjects = sorted({col.split('_')[-1] for col in features if "Primary_Subject_" in col})

@@ -1,2 +1,6 @@
 env/
+
 .qodo
+
+ML Models/Prodigy/SVM/test1/
+ML Models/Prodigy/SVM/train/

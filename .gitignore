@@ -4,3 +4,8 @@ env/
 
 ML Models/Prodigy/SVM/test1/
 ML Models/Prodigy/SVM/train/
+
+.idea/
+.ipynb_checkpoints/
+.venv/
+AI/.ipynb_checkpoints/

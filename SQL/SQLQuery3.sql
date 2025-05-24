@@ -1,0 +1,4 @@
+BEGIN TRANSACTION;
+UPDATE DepartementName SET='soft' WHERE Id=3
+
+COMMIT;

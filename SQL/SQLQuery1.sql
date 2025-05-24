@@ -67,17 +67,17 @@ CREATE TABLE CourseOffering (
 INSERT INTO BatchYear (BatchYearId, YearNumber, YearInRomanNumber)
 VALUES
   (1, 2018, 'MMXVIII'),
-  (2, 2019, 'MMXIX'),
-  (3, 2020, 'MMXX'),
-  (4, 2021, 'MMXXI');
+  (2, 2019,   'MMXIX'),
+  (3, 2020,    'MMXX'),
+  (4, 2021,   'MMXXI');
 
   INSERT INTO Department (DepartmentId, DepartmentName, Acronym)
 VALUES
   (1, 'Computer Science', 'CSE'),
-  (2, 'Mathematics',       'MAT'),
-  (3, 'Physics',           'PHY'),
-  (4, 'Chemistry',         'CHEM'),
-  (5, 'Biology',           'BIO');
+  (2, 'Mathematics',      'MAT'),
+  (3, 'Physics',          'PHY'),
+  (4, 'Chemistry',       'CHEM'),
+  (5, 'Biology',          'BIO');
 
 
   INSERT INTO Course
@@ -97,7 +97,7 @@ VALUES
   (7, 'Organic Chemistry',             'CHEM301',3, 4, 3),
   (8, 'Biology of Cells',              'BIO101', 3, 5, 4),
   (9, 'Database Systems',              'CSE301', 3, 1, 2),
-  (10,'Software Engineering',           'CSE401', 3, 1, 4);
+  (10,'Software Engineering',          'CSE401', 3, 1, 4);
 
 
   INSERT INTO Instructor

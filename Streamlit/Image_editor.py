@@ -9,7 +9,7 @@ image = st.file_uploader("Choose an image...", type=["jpg", "jpeg", "png"], acce
 
 if image is not None:
     img = Image.open(image)
-    original_img = img.copy()  # Keep a copy for displaying original
+    original_img = img.copy()
 
     st.sidebar.header("Edit Options")
     st.sidebar.subheader("Adjustments")
@@ -17,9 +17,8 @@ if image is not None:
     contrast = st.sidebar.slider("Contrast", 0.0, 2.0, 1.0)
     sharpness = st.sidebar.slider("Sharpness", 0.0, 2.0, 1.0)
     blur = st.sidebar.slider("Blur", 0, 10, 0)
-    flip_Image = st.sidebar.selectbox("Flip Image", options=["Select Option", "Horizontal Flip", "Vertical Flip"], index=0)
+    flip_Image = st.sidebar.selectbox("Flip Image", options=["Select Option", "FLIP_TOP_BOTTOM", "FLIP_LEFT_RIGHT"])
 
-    # Apply adjustments
     enhancer = ImageEnhance.Brightness(img)
     img = enhancer.enhance(brightness)
 
@@ -37,20 +36,17 @@ if image is not None:
     elif flip_Image == "FLIP_LEFT_RIGHT":
         img = img.transpose(Image.FLIP_LEFT_RIGHT)
 
-    # Display side-by-side
     col1, col2 = st.columns(2)
     with col1:
-        st.image(original_img, caption="Original Image", use_column_width=True)
+        st.image(original_img, caption="Original Image", use_container_width=True)
     with col2:
-        st.image(img, caption="Edited Image", use_column_width=True)
+        st.image(img, caption="Edited Image", use_container_width=True)
 
-    # Download button
     st.sidebar.download_button(
         label="Download Edited Image",
         data=img.convert("RGB").tobytes(),
         file_name="edited_image.png",
         mime="image/png"
     )
-
 else:
     st.warning("Please upload an image to start editing.")

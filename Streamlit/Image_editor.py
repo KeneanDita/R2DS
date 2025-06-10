@@ -50,3 +50,5 @@ if image is not None:
     )
 else:
     st.warning("Please upload an image to start editing.")
+
+

@@ -15,10 +15,13 @@ st.write("Please enter the following details and hit the predict button to get t
 
 st.divider()
 
-age = st.number_input("Age", min_value=10, max_value=100, value=30)
-tenure = st.number_input("Tenure", min_value=0, max_value=130,value=12)
-mothly_charges = st.number_input("Monthly Charges", min_value=30, max_value=150)
-gender = st.selectbox("Gender", ["Male", "Female"])
+income = st.number_input("Income", min_value = 10000, max_value=170000)
+children = st.number_input("Children", min_value=0, max_value=5)
+cars = st.number_input("Cars", min_value=0, max_values=4)
+age = st.number_input("Age", min_value=0, max_value=90)
+marital_status = st.selectbox("Marital Status", [0, 1])
+gender = st.selectbox("Gender", [0, 1])
+home_owner = st.selectbox("Gender", [0, 1])
 
 
 st.divider()

@@ -17,11 +17,11 @@ st.divider()
 
 income = st.number_input("Income", min_value = 10000, max_value=170000)
 children = st.number_input("Children", min_value=0, max_value=5)
-cars = st.number_input("Cars", min_value=0, max_values=4)
+cars = st.number_input("Cars", min_value=0, max_value=4)
 age = st.number_input("Age", min_value=0, max_value=90)
-marital_status = st.selectbox("Marital Status", [0, 1])
-gender = st.selectbox("Gender", [0, 1])
-home_owner = st.selectbox("Gender", [0, 1])
+marital_status = st.selectbox("Marital Status", ["Married", "Single"])
+gender = st.selectbox("Gender", ["Male", "Female"])
+home_owner = st.selectbox("Gender", ["Yes", "No"])
 
 
 st.divider()
@@ -30,6 +30,14 @@ predict_button = st.button("Predict")
 st.divider()
 
 if predict_button:
+    
+    gender_selected = 1 if gender == "Male" else 0
+    home_owner_selected = 1 if home_owner == "Yes" else 0
+    marital_status_selected = 1 if marital_status == "Married" else 0
+    X = [income, children, cars, age, marital_status_selected, gender_selected, home_owner_selected]
+    X1 = np.array(X)
+    
+    
     X_array = scaler.transform([X1])
     prediction = model.predict(X_array)[0]
     predicted = "Yes" if prediction == 1 else "No"

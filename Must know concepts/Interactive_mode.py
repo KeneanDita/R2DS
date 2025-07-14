@@ -1,18 +1,18 @@
 # %% 
-def sum_of_2(x, t):
+def sum_of_2(x, y):
     # jklds;finallysdafs
     # fasdf
     # and
     """Adds two numbers together.
-
     Args:
         x (int or float): The first number.
-        t (int or float): The second number.
+        y (int or float): The second number.
 
     Returns:
-        int or float: The sum of x and t.
+        int or float: The sum of x and y.
     """
-    return x + t
+    return x + y
+
 
 # Example usage
 result = sum_of_2(1, 2)

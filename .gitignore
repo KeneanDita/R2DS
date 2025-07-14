@@ -1,5 +1,6 @@
 env/
-
+__pycache__/
+*.py[cod]
 .qodo
 
 ML Models/Prodigy/SVM/test1/

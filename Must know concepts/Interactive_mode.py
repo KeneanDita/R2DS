@@ -1,5 +1,5 @@
 # %% 
-def sum(x, t):
+def sum_of_2(x, t):
     # jklds;finallysdafs
     # fasdf
     # and
@@ -15,7 +15,7 @@ def sum(x, t):
     return x + t
 
 # Example usage
-result = sum(1, 2)
+result = sum_of_2(1, 2)
 print(result)  # Output: 3
 
 # %%

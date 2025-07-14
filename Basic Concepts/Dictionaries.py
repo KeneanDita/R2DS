@@ -1,3 +1,4 @@
+# this program changes numerical number into words
 phone = input("Phone: ")
 
 numbers = { 1:"one", 2:"two", 3:"three", 4:"four", 5:"five", 6:"Six",

@@ -1,0 +1,42 @@
+list of dataset available for now 
+----                 -------------         ------ ----
+d-----         5/20/2025   9:05 AM                Machine-Learning-From-Scratch
+d-----         5/17/2025  10:40 PM                Tensorflow Modules
+d-----         5/18/2025   7:12 PM                zero_to_gpt
+-a----         5/16/2025  10:27 AM       12429152 6.+Turbofan+Engine+Degradation+Simulation+Data+Set.zip
+-a----          5/8/2025   9:05 PM     2286085038 archive (2).zip
+-a----         5/16/2025  10:26 AM       12944209 archive.zip
+-a----          5/8/2025   9:29 PM    10067059132 archive_2 (2).zip
+-a----         5/18/2025  11:41 PM          11514 archive_2 (3).zip
+-a----         5/16/2025  10:27 AM          25691 archive_2.zip
+-a----         5/28/2025  11:05 PM         390286 archive_3 (2).zip
+-a----         5/16/2025  10:28 AM      122212134 archive_3.zip
+-a----         5/28/2025  11:07 PM        1149144 archive_4.zip
+-a----         5/28/2025  11:09 PM       39245453 archive_5.zip
+-a----         5/16/2025  10:31 AM          68047 Damage_Propagation_Modeling_for_Aircraft_Engine.ipynb
+-a----          5/8/2025   8:54 PM          13370 data_description (1).txt
+-a----          5/8/2025   8:54 PM          13370 data_description.txt
+-a----         5/18/2025   6:48 PM         559161 dense.ipynb
+-a----         5/14/2025  10:23 PM          27405 EDGE AI.docx
+-a----         5/17/2025  11:24 PM           5588 FaceDetection-main.zip
+-a----         5/17/2025  11:04 PM        2042752 fcc-intro-to-llms-main.zip
+-a----          6/3/2025   9:05 PM        1145061 hand-gesture-recognition-mediapipe-main.zip
+-a----          5/8/2025   8:54 PM         203809 house-prices-advanced-regression-techniques.zip
+-a----         5/16/2025  10:32 AM          26519 Machine_Failure_⛔_Anomaly_Detection.ipynb
+-a----         5/26/2025   9:52 PM         117261 market_prediction.ipynb
+-a----         5/28/2025  10:54 PM         205869 Power-BI-main.zip
+-a----          6/7/2025   9:03 PM           2484 PythonAIAgentFromScratch-main.zip
+-a----         5/17/2025  11:35 PM      431852576 pytorch-deep-learning-main.zip
+-a----         5/18/2025  11:40 PM          32091 regression.ipynb
+-a----         5/16/2025  10:30 AM          26976 Regression_Model_between_Electric_Motor_Parameters.ipynb
+-a----         5/18/2025   6:47 PM          11588 Simple_MNIST_NN_from_scratch_(numpy,_no_TF_Keras).ipynb
+-a----         5/14/2025  10:35 PM          22054 SMHM.docx
+-a----         5/28/2025  11:09 PM          13558 sql-course-materials.zip
+-a----         6/20/2025  10:04 PM      118889832 Student Performance Predictor.zip
+-a----          4/4/2025   2:06 PM          48199 studentregistermanament-main.zip
+-a----         5/18/2025  11:40 PM          74582 teams (2).csv
+-a----         5/17/2025  10:07 PM         108367 teams.csv
+-a----         6/25/2025   6:50 PM         130996 Time-Series-Forecasting-LSTM-main.zip
+-a----         5/18/2025  11:42 PM          34562 Titanic_Top_Solution.ipynb
+-a----         5/13/2025  11:09 PM          18217 University Course Management Database Data Dictionary.docx
+-a----         5/13/2025  11:10 PM          64180 University Course Management Database Data Dictionary.pdf

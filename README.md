@@ -26,8 +26,8 @@ This repo keeps me grounded with:
 - ✅ Data Visualization (Matplotlib, Seaborn)
 - ✅ Statistics & Probability
 - ✅ Machine Learning (Scikit-learn)
-- 🔄 SQL & Databases (in progress)
-- 🔄 Capstone Projects (planned)
+- ✅ SQL & Databases (in progress)
+- ✅ Capstone Projects
 
 ---
 
@@ -39,12 +39,6 @@ I reference a mix of books, courses, and real datasets, including:
 - Kaggle Learn
 - StatQuest by Josh Starmer
 - *Hands-On ML with Scikit-Learn, Keras & TensorFlow*
-
----
-
-## Status
-
-This repo is constantly evolving as I learn - feel free to fork or follow if you're on a similar path.
 
 ---
 
